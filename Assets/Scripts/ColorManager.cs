@@ -102,7 +102,7 @@ public class ColorManager : MonoBehaviour
         SetStatus(true);
 
         // Start the 2-minute timer coroutine
-        StartCoroutine(GameTimer(10f));
+        StartCoroutine(GameTimer(120f));
     }
 
     // Coroutine to handle the 2-minute timer

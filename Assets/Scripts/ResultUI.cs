@@ -9,7 +9,7 @@ public class ResultUI : MonoBehaviour
 
     public TextMeshProUGUI resultTextDisplay;
 
-    private int points;
+    public int points;
     
     // Start is called before the first frame update
     void Start()
